@@ -123,7 +123,6 @@ def sixth_man_main():
       sixth_man_list = [get_6th_man(log) for log in game_logs]
       sixth_men_mode = return_mode_player(sixth_man_list)
       sixth_man_df_list = add_to_list(sixth_men_mode, sixth_man_df_list, season, team)
-      print(sixth_man_df_list)
       df = pd.concat(sixth_man_df_list)
       sixth_man_df_list = [df]
       os.remove('data/sixth_man_data.csv')
