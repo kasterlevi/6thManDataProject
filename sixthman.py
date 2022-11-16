@@ -17,11 +17,12 @@ season_list = ['2000-01', '2001-02', '2002-03', '2003-04', '2004-05', '2005-06',
 
 
 def get_game_ids(team_id, season):
+  time.sleep(.6)
   gamefinder = leaguegamefinder.LeagueGameFinder(
     season_nullable=season,
     season_type_nullable=SeasonType.regular,
     team_id_nullable=team_id)
-  time.sleep(1)
+  time.sleep(.6)
   games_dict = gamefinder.get_normalized_dict()
   games = games_dict['LeagueGameFinderResults']
   game_id_list = [(game['GAME_ID'], game['MATCHUP']) for game in games]
@@ -33,8 +34,9 @@ def get_game_log(game_id):
   # Takes a Tuple of game id and a string of what the matchup is
   # Returns: A Tuple of the game log, and a specification of whether the team we
   #'care' about is home or aaway
+  time.sleep(.6)
   df = playbyplay.PlayByPlay(game_id[0]).get_data_frames()[0]
-  time.sleep(1)
+  time.sleep(.6)
   home_away = 'Away' if '@' in game_id[1] else 'Home'
   return (df, home_away)
 
@@ -78,21 +80,51 @@ def check_sixth_man_df_exists():
   else:
     pd.DataFrame({}).to_csv('data/sixth_man_data.csv')
     return []
-    
+
+def get_team_and_year(nba_teams, season_list, sixth_man_df_list):
+    # IF the Df exists
+    if len(sixth_man_df_list) == 1:
+        df = sixth_man_df_list[0]
+        last_team = df.loc[len(df) - 1, 'Team']
+        last_season = df.loc[len(df) - 1, 'Season']
+        # Get team_list
+        for i in range(len(nba_teams)):
+            if last_team == nba_teams[i]['full_name']:
+                used_team_list = nba_teams[i:]
+        # Get correct season_list and update team_list if need be
+        if last_season == '2021-22':
+            used_season_list = season_list
+            used_team_list = used_team_list[1:]
+        else: 
+            correct_index = season_list.index(last_season)
+            used_season_list = season_list[(correct_index+1):]
+    # If df does not exist
+    else: 
+        used_season_list = season_list
+        used_team_list = nba_teams
+
+    return used_season_list, used_team_list
+
 
 def sixth_man_main():
   # NOT COMPLETE!!!
-  # This 
+  # This
+  print('new one running')
   sixth_man_df_list = check_sixth_man_df_exists()
-  for team in nba_teams:
-    for season in season_list:
+  used_season_list, used_team_list = get_team_and_year(nba_teams, season_list, sixth_man_df_list)
+  i = 0
+  for team in used_team_list:
+    if i > 0:
+      used_season_list = season_list
+    i = i + 1
+    for season in used_season_list:
       game_ids = get_game_ids(team['id'], season)
       game_logs = [get_game_log(game) for game in game_ids]
       sixth_man_list = [get_6th_man(log) for log in game_logs]
       sixth_men_mode = return_mode_player(sixth_man_list)
       sixth_man_df_list = add_to_list(sixth_men_mode, sixth_man_df_list, season, team)
       print(sixth_man_df_list)
-    df = pd.concat(sixth_man_df_list)
-    sixth_man_df_list = [df]
-    os.remove('data/sixth_man_data.csv')
-    df.to_csv('data/sixth_man_data.csv')
+      df = pd.concat(sixth_man_df_list)
+      sixth_man_df_list = [df]
+      os.remove('data/sixth_man_data.csv')
+      df.to_csv('data/sixth_man_data.csv', index=False)
