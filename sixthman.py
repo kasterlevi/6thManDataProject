@@ -6,7 +6,8 @@ from nba_api.stats.static import teams
 from nba_api.stats.endpoints import playbyplay
 import numpy as np
 import time
-from statistics import mode
+from statistics import multimode
+import os
 
 # Initializations
 nba_teams = teams.get_teams()
@@ -61,17 +62,37 @@ def get_6th_man(game_log_tuple):
 
 
 def return_mode_player(sixth_man_list):
-  # NOT COMPLETE!!!
-  a = 1
-  pass
+  total_players_list = []
+  for value in sixth_man_list:
+      for x in value: total_players_list.append(x)
+  return multimode(total_players_list)
 
+def add_to_list(sixth_men_mode, sixth_man_df_list, season, team):
+    for player in sixth_men_mode:
+        sixth_man_df_list.append(pd.DataFrame({'Player': [player], 'Season': [season], 'Team': [team['full_name']]}))
+    return sixth_man_df_list
 
-def main():
+def check_sixth_man_df_exists():
+  if os.path.exists('data/sixth_man_data.csv'):
+    return [pd.read_csv('data/sixth_man_data.csv')]
+  else:
+    pd.DataFrame({}).to_csv('data/sixth_man_data.csv')
+    return []
+    
+
+def sixth_man_main():
   # NOT COMPLETE!!!
-  sixth_man_df = pd.DataFrame({'Player': [], 'Season': [], 'Team': []})
+  # This 
+  sixth_man_df_list = check_sixth_man_df_exists()
   for team in nba_teams:
     for season in season_list:
       game_ids = get_game_ids(team['id'], season)
       game_logs = [get_game_log(game) for game in game_ids]
       sixth_man_list = [get_6th_man(log) for log in game_logs]
-      print(sixth_man_list)
+      sixth_men_mode = return_mode_player(sixth_man_list)
+      sixth_man_df_list = add_to_list(sixth_men_mode, sixth_man_df_list, season, team)
+      print(sixth_man_df_list)
+    df = pd.concat(sixth_man_df_list)
+    sixth_man_df_list = [df]
+    os.remove('data/sixth_man_data.csv')
+    df.to_csv('data/sixth_man_data.csv')
