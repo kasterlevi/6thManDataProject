@@ -109,7 +109,7 @@ def get_team_and_year(nba_teams, season_list, sixth_man_df_list):
 def sixth_man_main():
   # NOT COMPLETE!!!
   # This
-  print('new one running')
+  print('Good')
   sixth_man_df_list = check_sixth_man_df_exists()
   used_season_list, used_team_list = get_team_and_year(nba_teams, season_list, sixth_man_df_list)
   i = 0
