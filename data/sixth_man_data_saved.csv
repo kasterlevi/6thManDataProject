@@ -1,0 +1,684 @@
+Player,Season,Team
+Wright,2000-01,Atlanta Hawks
+Vaughn,2001-02,Atlanta Hawks
+Henderson,2002-03,Atlanta Hawks
+Mohammed,2003-04,Atlanta Hawks
+Drobnjak,2004-05,Atlanta Hawks
+Childress,2005-06,Atlanta Hawks
+Childress,2006-07,Atlanta Hawks
+Childress,2007-08,Atlanta Hawks
+Evans,2008-09,Atlanta Hawks
+Crawford,2009-10,Atlanta Hawks
+Crawford,2010-11,Atlanta Hawks
+McGrady,2011-12,Atlanta Hawks
+Williams,2012-13,Atlanta Hawks
+Brand,2013-14,Atlanta Hawks
+Antic,2014-15,Atlanta Hawks
+Sefolosha,2015-16,Atlanta Hawks
+Muscala,2016-17,Atlanta Hawks
+Collins,2017-18,Atlanta Hawks
+Len,2018-19,Atlanta Hawks
+Fernando,2019-20,Atlanta Hawks
+Carter,2019-20,Atlanta Hawks
+Gallinari,2020-21,Atlanta Hawks
+Bogdanovic,2021-22,Atlanta Hawks
+Gallinari,2021-22,Atlanta Hawks
+Potapenko,2000-01,Boston Celtics
+Williams,2001-02,Boston Celtics
+McCarty,2002-03,Boston Celtics
+Davis,2003-04,Boston Celtics
+Davis,2004-05,Boston Celtics
+Jefferson,2005-06,Boston Celtics
+Rondo,2006-07,Boston Celtics
+Posey,2007-08,Boston Celtics
+Davis,2008-09,Boston Celtics
+Wallace,2009-10,Boston Celtics
+Davis,2010-11,Boston Celtics
+Stiemsma,2011-12,Boston Celtics
+Wilcox,2012-13,Boston Celtics
+Sullinger,2013-14,Boston Celtics
+Olynyk,2014-15,Boston Celtics
+Turner,2015-16,Boston Celtics
+Smart,2016-17,Boston Celtics
+Smart,2017-18,Boston Celtics
+Hayward,2018-19,Boston Celtics
+Williams,2019-20,Boston Celtics
+Williams,2020-21,Boston Celtics
+Williams,2021-22,Boston Celtics
+Gatling,2000-01,Cleveland Cavaliers
+Davis,2001-02,Cleveland Cavaliers
+Jones,2002-03,Cleveland Cavaliers
+Battie,2003-04,Cleveland Cavaliers
+Traylor,2004-05,Cleveland Cavaliers
+Marshall,2005-06,Cleveland Cavaliers
+Varejao,2006-07,Cleveland Cavaliers
+Varejao,2007-08,Cleveland Cavaliers
+Gibson,2008-09,Cleveland Cavaliers
+Szczerbiak,2008-09,Cleveland Cavaliers
+Varejao,2009-10,Cleveland Cavaliers
+Gibson,2010-11,Cleveland Cavaliers
+Samuels,2011-12,Cleveland Cavaliers
+Gee,2011-12,Cleveland Cavaliers
+Walton,2012-13,Cleveland Cavaliers
+Waiters,2013-14,Cleveland Cavaliers
+Shumpert,2014-15,Cleveland Cavaliers
+Dellavedova,2015-16,Cleveland Cavaliers
+Jefferson,2016-17,Cleveland Cavaliers
+Shumpert,2016-17,Cleveland Cavaliers
+Wade,2017-18,Cleveland Cavaliers
+Clarkson,2018-19,Cleveland Cavaliers
+Porter,2019-20,Cleveland Cavaliers
+Osman,2020-21,Cleveland Cavaliers
+Love,2021-22,Cleveland Cavaliers
+Traylor,2002-03,New Orleans Pelicans
+Alexander,2002-03,New Orleans Pelicans
+Armstrong,2003-04,New Orleans Pelicans
+Jacobsen,2004-05,New Orleans Pelicans
+Andersen,2004-05,New Orleans Pelicans
+Claxton,2005-06,New Orleans Pelicans
+B. Jackson,2006-07,New Orleans Pelicans
+Jackson,2007-08,New Orleans Pelicans
+Posey,2008-09,New Orleans Pelicans
+Thornton,2009-10,New Orleans Pelicans
+Green,2010-11,New Orleans Pelicans
+Landry,2011-12,New Orleans Pelicans
+Anderson,2012-13,New Orleans Pelicans
+Evans,2013-14,New Orleans Pelicans
+Anderson,2014-15,New Orleans Pelicans
+Anderson,2015-16,New Orleans Pelicans
+Moore,2016-17,New Orleans Pelicans
+Miller,2017-18,New Orleans Pelicans
+Miller,2018-19,New Orleans Pelicans
+Randle,2018-19,New Orleans Pelicans
+Hart,2019-20,New Orleans Pelicans
+Hart,2020-21,New Orleans Pelicans
+Hernangomez,2021-22,New Orleans Pelicans
+Benjamin,2000-01,Chicago Bulls
+Fizer,2001-02,Chicago Bulls
+Marshall,2002-03,Chicago Bulls
+Chandler,2003-04,Chicago Bulls
+Chandler,2004-05,Chicago Bulls
+Songaila,2005-06,Chicago Bulls
+Thomas,2006-07,Chicago Bulls
+Gordon,2007-08,Chicago Bulls
+Hinrich,2008-09,Chicago Bulls
+Miller,2009-10,Chicago Bulls
+Brewer,2010-11,Chicago Bulls
+Gibson,2011-12,Chicago Bulls
+Gibson,2012-13,Chicago Bulls
+Gibson,2013-14,Chicago Bulls
+Gibson,2014-15,Chicago Bulls
+McDermott,2015-16,Chicago Bulls
+Mirotic,2016-17,Chicago Bulls
+Valentine,2017-18,Chicago Bulls
+Arcidiacono,2018-19,Chicago Bulls
+White,2019-20,Chicago Bulls
+Young,2020-21,Chicago Bulls
+Brown,2021-22,Chicago Bulls
+Bradley,2000-01,Dallas Mavericks
+Hardaway,2001-02,Dallas Mavericks
+Van,2002-03,Dallas Mavericks
+Jamison,2003-04,Dallas Mavericks
+Stackhouse,2004-05,Dallas Mavericks
+Stackhouse,2005-06,Dallas Mavericks
+Diop,2006-07,Dallas Mavericks
+Terry,2007-08,Dallas Mavericks
+Terry,2008-09,Dallas Mavericks
+Terry,2009-10,Dallas Mavericks
+Terry,2010-11,Dallas Mavericks
+Terry,2011-12,Dallas Mavericks
+Carter,2012-13,Dallas Mavericks
+Carter,2013-14,Dallas Mavericks
+Aminu,2014-15,Dallas Mavericks
+Powell,2015-16,Dallas Mavericks
+Harris,2016-17,Dallas Mavericks
+Mejri,2017-18,Dallas Mavericks
+Finney-Smith,2018-19,Dallas Mavericks
+Kleber,2019-20,Dallas Mavericks
+Brunson,2020-21,Dallas Mavericks
+Kleber,2021-22,Dallas Mavericks
+McCloud,2000-01,Denver Nuggets
+Bowen,2001-02,Denver Nuggets
+Nene,2002-03,Denver Nuggets
+Boykins,2003-04,Denver Nuggets
+Nene,2004-05,Denver Nuggets
+Najera,2005-06,Denver Nuggets
+Evans,2006-07,Denver Nuggets
+Najera,2007-08,Denver Nuggets
+Smith,2008-09,Denver Nuggets
+Smith,2009-10,Denver Nuggets
+Harrington,2010-11,Denver Nuggets
+Harrington,2011-12,Denver Nuggets
+McGee,2012-13,Denver Nuggets
+Mozgov,2013-14,Denver Nuggets
+Hickson,2014-15,Denver Nuggets
+Barton,2015-16,Denver Nuggets
+Chandler,2016-17,Denver Nuggets
+Barton,2017-18,Denver Nuggets
+Morris,2018-19,Denver Nuggets
+Grant,2019-20,Denver Nuggets
+Dozier,2020-21,Denver Nuggets
+Campazzo,2021-22,Denver Nuggets
+Blount,2000-01,Golden State Warriors
+Cummings,2000-01,Golden State Warriors
+Sura,2001-02,Golden State Warriors
+Foyle,2002-03,Golden State Warriors
+Cheaney,2003-04,Golden State Warriors
+Pietrus,2004-05,Golden State Warriors
+Davis,2004-05,Golden State Warriors
+Biedrins,2005-06,Golden State Warriors
+Barnes,2006-07,Golden State Warriors
+Dunleavy,2006-07,Golden State Warriors
+Barnes,2007-08,Golden State Warriors
+Maggette,2008-09,Golden State Warriors
+Randolph,2009-10,Golden State Warriors
+Udoh,2010-11,Golden State Warriors
+Udoh,2011-12,Golden State Warriors
+Jack,2012-13,Golden State Warriors
+Barnes,2013-14,Golden State Warriors
+Iguodala,2014-15,Golden State Warriors
+Iguodala,2015-16,Golden State Warriors
+Iguodala,2016-17,Golden State Warriors
+Iguodala,2017-18,Golden State Warriors
+Looney,2018-19,Golden State Warriors
+Burks,2019-20,Golden State Warriors
+Bazemore,2020-21,Golden State Warriors
+Payton,2021-22,Golden State Warriors
+Thomas,2000-01,Houston Rockets
+Willis,2001-02,Houston Rockets
+Cato,2002-03,Houston Rockets
+Taylor,2003-04,Houston Rockets
+Mutombo,2004-05,Houston Rockets
+Mutombo,2005-06,Houston Rockets
+Head,2006-07,Houston Rockets
+Scola,2007-08,Houston Rockets
+Landry,2008-09,Houston Rockets
+Landry,2009-10,Houston Rockets
+Lee,2010-11,Houston Rockets
+Patterson,2011-12,Houston Rockets
+Smith,2012-13,Houston Rockets
+Casspi,2013-14,Houston Rockets
+Smith,2014-15,Houston Rockets
+Jones,2015-16,Houston Rockets
+Gordon,2016-17,Houston Rockets
+Gordon,2017-18,Houston Rockets
+Green,2018-19,Houston Rockets
+McLemore,2019-20,Houston Rockets
+Rivers,2019-20,Houston Rockets
+Martin,2020-21,Houston Rockets
+Martin,2021-22,Houston Rockets
+Rooks,2000-01,Los Angeles Clippers
+Richardson,2001-02,Los Angeles Clippers
+Ely,2002-03,Los Angeles Clippers
+Wilcox,2003-04,Los Angeles Clippers
+Rebraca,2004-05,Los Angeles Clippers
+Moore,2004-05,Los Angeles Clippers
+Livingston,2005-06,Los Angeles Clippers
+Thomas,2006-07,Los Angeles Clippers
+Mobley,2007-08,Los Angeles Clippers
+Jones,2008-09,Los Angeles Clippers
+Jordan,2009-10,Los Angeles Clippers
+Bledsoe,2010-11,Los Angeles Clippers
+Williams,2011-12,Los Angeles Clippers
+Crawford,2012-13,Los Angeles Clippers
+Crawford,2013-14,Los Angeles Clippers
+Crawford,2014-15,Los Angeles Clippers
+W. Johnson,2015-16,Los Angeles Clippers
+Crawford,2016-17,Los Angeles Clippers
+L. Williams,2017-18,Los Angeles Clippers
+Harrell,2018-19,Los Angeles Clippers
+Williams,2019-20,Los Angeles Clippers
+Williams,2020-21,Los Angeles Clippers
+Mann,2021-22,Los Angeles Clippers
+Horry,2000-01,Los Angeles Lakers
+Horry,2001-02,Los Angeles Lakers
+Horry,2002-03,Los Angeles Lakers
+Fisher,2003-04,Los Angeles Lakers
+Grant,2004-05,Los Angeles Lakers
+George,2005-06,Los Angeles Lakers
+Evans,2006-07,Los Angeles Lakers
+Farmar,2007-08,Los Angeles Lakers
+Odom,2008-09,Los Angeles Lakers
+Odom,2009-10,Los Angeles Lakers
+Odom,2010-11,Los Angeles Lakers
+Barnes,2011-12,Los Angeles Lakers
+Jamison,2012-13,Los Angeles Lakers
+Young,2013-14,Los Angeles Lakers
+Boozer,2014-15,Los Angeles Lakers
+Russell,2015-16,Los Angeles Lakers
+Clarkson,2016-17,Los Angeles Lakers
+Clarkson,2017-18,Los Angeles Lakers
+Chandler,2018-19,Los Angeles Lakers
+Kuzma,2019-20,Los Angeles Lakers
+Caruso,2020-21,Los Angeles Lakers
+Monk,2021-22,Los Angeles Lakers
+Green,2000-01,Miami Heat
+Jackson,2001-02,Miami Heat
+Stepania,2002-03,Miami Heat
+Alston,2003-04,Miami Heat
+Doleac,2004-05,Miami Heat
+Walker,2005-06,Miami Heat
+Walker,2006-07,Miami Heat
+Davis,2007-08,Miami Heat
+Beasley,2008-09,Miami Heat
+Haslem,2009-10,Miami Heat
+Jones,2010-11,Miami Heat
+Haslem,2011-12,Miami Heat
+Allen,2012-13,Miami Heat
+Allen,2013-14,Miami Heat
+Chalmers,2014-15,Miami Heat
+Winslow,2015-16,Miami Heat
+T. Johnson,2016-17,Miami Heat
+Ellington,2017-18,Miami Heat
+Wade,2018-19,Miami Heat
+Dragic,2019-20,Miami Heat
+Dragic,2020-21,Miami Heat
+Herro,2021-22,Miami Heat
+Thomas,2000-01,Milwaukee Bucks
+Thomas,2001-02,Milwaukee Bucks
+Redd,2002-03,Milwaukee Bucks
+Kukoc,2002-03,Milwaukee Bucks
+Jones,2003-04,Milwaukee Bucks
+Pachulia,2004-05,Milwaukee Bucks
+Kukoc,2005-06,Milwaukee Bucks
+Smith,2005-06,Milwaukee Bucks
+Patterson,2006-07,Milwaukee Bucks
+Bell,2007-08,Milwaukee Bucks
+Villanueva,2008-09,Milwaukee Bucks
+Ridnour,2009-10,Milwaukee Bucks
+Ilyasova,2010-11,Milwaukee Bucks
+Dunleavy,2011-12,Milwaukee Bucks
+Dunleavy,2012-13,Milwaukee Bucks
+Henson,2013-14,Milwaukee Bucks
+Dudley,2014-15,Milwaukee Bucks
+Henson,2015-16,Milwaukee Bucks
+Monroe,2016-17,Milwaukee Bucks
+Parker,2017-18,Milwaukee Bucks
+Brown,2018-19,Milwaukee Bucks
+DiVincenzo,2019-20,Milwaukee Bucks
+Connaughton,2020-21,Milwaukee Bucks
+Connaughton,2021-22,Milwaukee Bucks
+Garrett,2000-01,Minnesota Timberwolves
+Peeler,2001-02,Minnesota Timberwolves
+Gill,2002-03,Minnesota Timberwolves
+Madsen,2003-04,Minnesota Timberwolves
+Szczerbiak,2004-05,Minnesota Timberwolves
+Hudson,2005-06,Minnesota Timberwolves
+Smith,2006-07,Minnesota Timberwolves
+McCants,2007-08,Minnesota Timberwolves
+Miller,2008-09,Minnesota Timberwolves
+Love,2009-10,Minnesota Timberwolves
+Pekovic,2010-11,Minnesota Timberwolves
+Beasley,2011-12,Minnesota Timberwolves
+Barea,2012-13,Minnesota Timberwolves
+Cunningham,2013-14,Minnesota Timberwolves
+Budinger,2014-15,Minnesota Timberwolves
+Bjelica,2015-16,Minnesota Timberwolves
+Muhammad,2016-17,Minnesota Timberwolves
+Dieng,2017-18,Minnesota Timberwolves
+Rose,2018-19,Minnesota Timberwolves
+Okogie,2019-20,Minnesota Timberwolves
+McDaniels,2020-21,Minnesota Timberwolves
+Beasley,2021-22,Minnesota Timberwolves
+Williams,2000-01,Brooklyn Nets
+Jefferson,2001-02,Brooklyn Nets
+Rogers,2002-03,Brooklyn Nets
+Rogers,2003-04,Brooklyn Nets
+Best,2004-05,Brooklyn Nets
+Robinson,2005-06,Brooklyn Nets
+Nachbar,2006-07,Brooklyn Nets
+Nachbar,2007-08,Brooklyn Nets
+Hayes,2008-09,Brooklyn Nets
+Humphries,2009-10,Brooklyn Nets
+Vujacic,2010-11,Brooklyn Nets
+Morrow,2011-12,Brooklyn Nets
+Bogans,2012-13,Brooklyn Nets
+Blatche,2013-14,Brooklyn Nets
+Lopez,2014-15,Brooklyn Nets
+Bogdanovic,2015-16,Brooklyn Nets
+Hamilton,2016-17,Brooklyn Nets
+Harris,2017-18,Brooklyn Nets
+Dinwiddie,2018-19,Brooklyn Nets
+Temple,2019-20,Brooklyn Nets
+Luwawu-Cabarrot,2020-21,Brooklyn Nets
+Thomas,2021-22,Brooklyn Nets
+Thomas,2000-01,New York Knicks
+Harrington,2001-02,New York Knicks
+Weatherspoon,2002-03,New York Knicks
+Hardaway,2003-04,New York Knicks
+Sweetney,2004-05,New York Knicks
+Taylor,2005-06,New York Knicks
+Lee,2006-07,New York Knicks
+Lee,2007-08,New York Knicks
+Robinson,2008-09,New York Knicks
+Harrington,2009-10,New York Knicks
+Douglas,2010-11,New York Knicks
+Smith,2011-12,New York Knicks
+Smith,2012-13,New York Knicks
+Smith,2013-14,New York Knicks
+Aldrich,2014-15,New York Knicks
+Stoudemire,2014-15,New York Knicks
+Thomas,2015-16,New York Knicks
+O'Quinn,2016-17,New York Knicks
+McDermott,2017-18,New York Knicks
+Thomas,2018-19,New York Knicks
+Robinson,2019-20,New York Knicks
+Gibson,2020-21,New York Knicks
+Gibson,2021-22,New York Knicks
+Garrity,2000-01,Orlando Magic
+Hudson,2001-02,Orlando Magic
+Armstrong,2002-03,Orlando Magic
+Gooden,2003-04,Orlando Magic
+Battie,2004-05,Orlando Magic
+Dooling,2005-06,Orlando Magic
+Milicic,2006-07,Orlando Magic
+Cook,2007-08,Orlando Magic
+Pietrus,2008-09,Orlando Magic
+Williams,2009-10,Orlando Magic
+Anderson,2010-11,Orlando Magic
+Davis,2011-12,Orlando Magic
+Redick,2012-13,Orlando Magic
+Nicholson,2013-14,Orlando Magic
+A. Gordon,2014-15,Orlando Magic
+Smith,2015-16,Orlando Magic
+Hezonja,2016-17,Orlando Magic
+Iwundu,2017-18,Orlando Magic
+Iwundu,2018-19,Orlando Magic
+Ross,2019-20,Orlando Magic
+Ross,2020-21,Orlando Magic
+Ross,2021-22,Orlando Magic
+Best,2000-01,Indiana Pacers
+Harrington,2001-02,Indiana Pacers
+Harrington,2002-03,Indiana Pacers
+Harrington,2003-04,Indiana Pacers
+F. Jones,2004-05,Indiana Pacers
+Jones,2005-06,Indiana Pacers
+Granger,2006-07,Indiana Pacers
+Harrison,2007-08,Indiana Pacers
+Foster,2008-09,Indiana Pacers
+S. Jones,2009-10,Indiana Pacers
+Rush,2010-11,Indiana Pacers
+Hansbrough,2011-12,Indiana Pacers
+T. Hansbrough,2012-13,Indiana Pacers
+Scola,2013-14,Indiana Pacers
+Stuckey,2014-15,Indiana Pacers
+Stuckey,2015-16,Indiana Pacers
+Ellis,2016-17,Indiana Pacers
+Sabonis,2017-18,Indiana Pacers
+Sabonis,2018-19,Indiana Pacers
+J. Holiday,2019-20,Indiana Pacers
+McConnell,2020-21,Indiana Pacers
+Craig,2021-22,Indiana Pacers
+McKie,2000-01,Philadelphia 76ers
+Blount,2001-02,Philadelphia 76ers
+Buckner,2002-03,Philadelphia 76ers
+McCaskill,2003-04,Philadelphia 76ers
+McKie,2004-05,Philadelphia 76ers
+Hunter,2005-06,Philadelphia 76ers
+Salmons,2005-06,Philadelphia 76ers
+Korver,2006-07,Philadelphia 76ers
+Smith,2007-08,Philadelphia 76ers
+Williams,2008-09,Philadelphia 76ers
+Speights,2009-10,Philadelphia 76ers
+Young,2010-11,Philadelphia 76ers
+Williams,2011-12,Philadelphia 76ers
+Wright,2012-13,Philadelphia 76ers
+Allen,2013-14,Philadelphia 76ers
+Thompson,2014-15,Philadelphia 76ers
+Grant,2014-15,Philadelphia 76ers
+McDaniels,2014-15,Philadelphia 76ers
+Thompson,2015-16,Philadelphia 76ers
+Stauskas,2016-17,Philadelphia 76ers
+McConnell,2017-18,Philadelphia 76ers
+McConnell,2018-19,Philadelphia 76ers
+Korkmaz,2019-20,Philadelphia 76ers
+Milton,2020-21,Philadelphia 76ers
+Niang,2021-22,Philadelphia 76ers
+Rogers,2000-01,Phoenix Suns
+Rogers,2001-02,Phoenix Suns
+Voskuhl,2002-03,Phoenix Suns
+White,2003-04,Phoenix Suns
+Jackson,2004-05,Phoenix Suns
+Jones,2005-06,Phoenix Suns
+Barbosa,2006-07,Phoenix Suns
+Diaw,2007-08,Phoenix Suns
+Amundson,2008-09,Phoenix Suns
+Dudley,2009-10,Phoenix Suns
+Gortat,2010-11,Phoenix Suns
+Morris,2011-12,Phoenix Suns
+Morris,2012-13,Phoenix Suns
+Mark,2013-14,Phoenix Suns
+Len,2014-15,Phoenix Suns
+Teletovic,2015-16,Phoenix Suns
+Tucker,2016-17,Phoenix Suns
+Len,2017-18,Phoenix Suns
+Jackson,2018-19,Phoenix Suns
+Bridges,2019-20,Phoenix Suns
+Payne,2020-21,Phoenix Suns
+Johnson,2021-22,Phoenix Suns
+Davis,2000-01,Portland Trail Blazers
+Patterson,2001-02,Portland Trail Blazers
+Sabonis,2002-03,Portland Trail Blazers
+Patterson,2003-04,Portland Trail Blazers
+Miles,2004-05,Portland Trail Blazers
+Patterson,2005-06,Portland Trail Blazers
+Outlaw,2006-07,Portland Trail Blazers
+Frye,2007-08,Portland Trail Blazers
+Outlaw,2008-09,Portland Trail Blazers
+Fernandez,2009-10,Portland Trail Blazers
+Fernandez,2010-11,Portland Trail Blazers
+Crawford,2011-12,Portland Trail Blazers
+Leonard,2012-13,Portland Trail Blazers
+Williams,2013-14,Portland Trail Blazers
+Kaman,2014-15,Portland Trail Blazers
+Blake,2014-15,Portland Trail Blazers
+Crabbe,2015-16,Portland Trail Blazers
+Crabbe,2016-17,Portland Trail Blazers
+Connaughton,2017-18,Portland Trail Blazers
+Turner,2018-19,Portland Trail Blazers
+Simons,2019-20,Portland Trail Blazers
+Anthony,2020-21,Portland Trail Blazers
+McLemore,2021-22,Portland Trail Blazers
+Pollard,2000-01,Sacramento Kings
+Pollard,2001-02,Sacramento Kings
+Turkoglu,2001-02,Sacramento Kings
+Clark,2002-03,Sacramento Kings
+Jackson,2003-04,Sacramento Kings
+Songaila,2004-05,Sacramento Kings
+Garcia,2005-06,Sacramento Kings
+Salmons,2006-07,Sacramento Kings
+Salmons,2007-08,Sacramento Kings
+Hawes,2008-09,Sacramento Kings
+Casspi,2009-10,Sacramento Kings
+Dalembert,2010-11,Sacramento Kings
+Fredette,2011-12,Sacramento Kings
+Hayes,2011-12,Sacramento Kings
+Thornton,2012-13,Sacramento Kings
+Williams,2013-14,Sacramento Kings
+Williams,2014-15,Sacramento Kings
+Casspi,2015-16,Sacramento Kings
+Tolliver,2016-17,Sacramento Kings
+Hield,2017-18,Sacramento Kings
+Koufos,2017-18,Sacramento Kings
+Bagley,2018-19,Sacramento Kings
+Bogdanovic,2019-20,Sacramento Kings
+Haliburton,2020-21,Sacramento Kings
+Hield,2021-22,Sacramento Kings
+Ferry,2000-01,San Antonio Spurs
+Rose,2001-02,San Antonio Spurs
+Rose,2002-03,San Antonio Spurs
+Ginobili,2003-04,San Antonio Spurs
+Barry,2004-05,San Antonio Spurs
+Finley,2005-06,San Antonio Spurs
+Barry,2006-07,San Antonio Spurs
+Horry,2006-07,San Antonio Spurs
+Ginobili,2006-07,San Antonio Spurs
+Ginobili,2007-08,San Antonio Spurs
+Ginobili,2008-09,San Antonio Spurs
+Ginobili,2009-10,San Antonio Spurs
+Hill,2010-11,San Antonio Spurs
+Ginobili,2011-12,San Antonio Spurs
+Ginobili,2012-13,San Antonio Spurs
+Ginobili,2013-14,San Antonio Spurs
+Ginobili,2014-15,San Antonio Spurs
+Ginobili,2015-16,San Antonio Spurs
+Mills,2016-17,San Antonio Spurs
+Ginobili,2017-18,San Antonio Spurs
+Mills,2018-19,San Antonio Spurs
+Mills,2019-20,San Antonio Spurs
+Mills,2020-21,San Antonio Spurs
+Walker,2021-22,San Antonio Spurs
+Patterson,2000-01,Oklahoma City Thunder
+Drobnjak,2001-02,Oklahoma City Thunder
+Mason,2001-02,Oklahoma City Thunder
+Radmanovic,2002-03,Oklahoma City Thunder
+Radmanovic,2003-04,Oklahoma City Thunder
+Radmanovic,2004-05,Oklahoma City Thunder
+Murray,2005-06,Oklahoma City Thunder
+Petro,2006-07,Oklahoma City Thunder
+Collison,2007-08,Oklahoma City Thunder
+Collison,2008-09,Oklahoma City Thunder
+Collison,2009-10,Oklahoma City Thunder
+Harden,2010-11,Oklahoma City Thunder
+Harden,2011-12,Oklahoma City Thunder
+Martin,2012-13,Oklahoma City Thunder
+Collison,2013-14,Oklahoma City Thunder
+Morrow,2014-15,Oklahoma City Thunder
+Waiters,2015-16,Oklahoma City Thunder
+Kanter,2016-17,Oklahoma City Thunder
+Grant,2017-18,Oklahoma City Thunder
+Schroder,2018-19,Oklahoma City Thunder
+Noel,2019-20,Oklahoma City Thunder
+Diallo,2020-21,Oklahoma City Thunder
+Williams,2021-22,Oklahoma City Thunder
+Clark,2000-01,Toronto Raptors
+Clark,2001-02,Toronto Raptors
+Alston,2002-03,Toronto Raptors
+Peterson,2003-04,Toronto Raptors
+Marshall,2004-05,Toronto Raptors
+Villanueva,2005-06,Toronto Raptors
+Bargnani,2006-07,Toronto Raptors
+Delfino,2007-08,Toronto Raptors
+Kapono,2008-09,Toronto Raptors
+Johnson,2009-10,Toronto Raptors
+Davis,2010-11,Toronto Raptors
+Davis,2011-12,Toronto Raptors
+Johnson,2012-13,Toronto Raptors
+Salmons,2013-14,Toronto Raptors
+Patterson,2014-15,Toronto Raptors
+Patterson,2015-16,Toronto Raptors
+Patterson,2016-17,Toronto Raptors
+Poeltl,2017-18,Toronto Raptors
+VanVleet,2018-19,Toronto Raptors
+Powell,2019-20,Toronto Raptors
+Boucher,2020-21,Toronto Raptors
+Boucher,2021-22,Toronto Raptors
+Vaughn,2000-01,Utah Jazz
+Crotty,2001-02,Utah Jazz
+Jackson,2002-03,Utah Jazz
+Bell,2003-04,Utah Jazz
+Okur,2004-05,Utah Jazz
+Brown,2005-06,Utah Jazz
+Harpring,2006-07,Utah Jazz
+Millsap,2007-08,Utah Jazz
+Millsap,2008-09,Utah Jazz
+Millsap,2009-10,Utah Jazz
+Miles,2010-11,Utah Jazz
+Favors,2011-12,Utah Jazz
+Favors,2012-13,Utah Jazz
+Burks,2013-14,Utah Jazz
+Booker,2014-15,Utah Jazz
+Booker,2015-16,Utah Jazz
+Lyles,2016-17,Utah Jazz
+Crowder,2017-18,Utah Jazz
+Crowder,2018-19,Utah Jazz
+Ingles,2019-20,Utah Jazz
+Favors,2020-21,Utah Jazz
+Whiteside,2021-22,Utah Jazz
+Swift,2000-01,Memphis Grizzlies
+Swift,2001-02,Memphis Grizzlies
+Battier,2002-03,Memphis Grizzlies
+Battier,2003-04,Memphis Grizzlies
+Posey,2004-05,Memphis Grizzlies
+Miller,2005-06,Memphis Grizzlies
+Swift,2006-07,Memphis Grizzlies
+Lowry,2007-08,Memphis Grizzlies
+Warrick,2008-09,Memphis Grizzlies
+Thabeet,2009-10,Memphis Grizzlies
+Mayo,2010-11,Memphis Grizzlies
+Mayo,2011-12,Memphis Grizzlies
+Bayless,2012-13,Memphis Grizzlies
+Calathes,2013-14,Memphis Grizzlies
+Allen,2014-15,Memphis Grizzlies
+Chalmers,2015-16,Memphis Grizzlies
+Carter,2016-17,Memphis Grizzlies
+Chalmers,2017-18,Memphis Grizzlies
+Green,2018-19,Memphis Grizzlies
+Clarke,2019-20,Memphis Grizzlies
+Bane,2020-21,Memphis Grizzlies
+Anderson,2021-22,Memphis Grizzlies
+Hamilton,2000-01,Washington Wizards
+Haywood,2001-02,Washington Wizards
+Brown,2002-03,Washington Wizards
+Thomas,2003-04,Washington Wizards
+Ruffin,2004-05,Washington Wizards
+Hayes,2004-05,Washington Wizards
+Daniels,2005-06,Washington Wizards
+Hayes,2006-07,Washington Wizards
+Blatche,2007-08,Washington Wizards
+Young,2008-09,Washington Wizards
+Blatche,2009-10,Washington Wizards
+Seraphin,2010-11,Washington Wizards
+Vesely,2011-12,Washington Wizards
+Seraphin,2012-13,Washington Wizards
+Webster,2013-14,Washington Wizards
+Humphries,2014-15,Washington Wizards
+Dudley,2015-16,Washington Wizards
+Oubre,2016-17,Washington Wizards
+Oubre,2017-18,Washington Wizards
+Morris,2018-19,Washington Wizards
+Bertans,2019-20,Washington Wizards
+Smith,2020-21,Washington Wizards
+Avdija,2021-22,Washington Wizards
+Moore,2000-01,Detroit Pistons
+Williamson,2001-02,Detroit Pistons
+Williamson,2002-03,Detroit Pistons
+Williamson,2003-04,Detroit Pistons
+McDyess,2004-05,Detroit Pistons
+McDyess,2005-06,Detroit Pistons
+McDyess,2006-07,Detroit Pistons
+Maxiell,2007-08,Detroit Pistons
+Maxiell,2008-09,Detroit Pistons
+Bynum,2009-10,Detroit Pistons
+Villanueva,2010-11,Detroit Pistons
+Jerebko,2011-12,Detroit Pistons
+Stuckey,2012-13,Detroit Pistons
+Stuckey,2013-14,Detroit Pistons
+Butler,2014-15,Detroit Pistons
+Johnson,2015-16,Detroit Pistons
+Leuer,2016-17,Detroit Pistons
+Smith,2017-18,Detroit Pistons
+Galloway,2018-19,Detroit Pistons
+Galloway,2019-20,Detroit Pistons
+Stewart,2020-21,Detroit Pistons
+Olynyk,2021-22,Detroit Pistons
+Magloire,2000-01,Charlotte Hornets
+Magloire,2001-02,Charlotte Hornets
+Kapono,2004-05,Charlotte Hornets
+Robinson,2005-06,Charlotte Hornets
+Morrison,2006-07,Charlotte Hornets
+Mohammed,2007-08,Charlotte Hornets
+Augustin,2008-09,Charlotte Hornets
+Chandler,2009-10,Charlotte Hornets
+Thomas,2010-11,Charlotte Hornets
+White,2011-12,Charlotte Hornets
+Sessions,2012-13,Charlotte Hornets
+Zeller,2013-14,Charlotte Hornets
+Williams,2014-15,Charlotte Hornets
+Kaminsky,2015-16,Charlotte Hornets
+Kaminsky,2016-17,Charlotte Hornets
+Kaminsky,2017-18,Charlotte Hornets
+Kidd-Gilchrist,2018-19,Charlotte Hornets
+Monk,2019-20,Charlotte Hornets
+Bridges,2020-21,Charlotte Hornets
+Martin,2021-22,Charlotte Hornets

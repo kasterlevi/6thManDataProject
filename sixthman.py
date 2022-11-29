@@ -59,8 +59,8 @@ def get_6th_man(game_log_tuple):
                  'PERIOD']] == df.loc[0,
                                       ['PCTIMESTRING', 'PERIOD']]).all(axis=1)]
     df = df.rename(columns={'VISITORDESCRIPTION': 'DESCRIPTION'})
-  return [statement.split(' ')[1] if '.' not in statement.split(' ')[1] else \
-          (statement.split(' ')[1] + ' ' + statement.split(' ')[2]) for statement in df['DESCRIPTION']]
+  #print(df)
+  return [(statement.split(':')[1]).split('FOR')[0]  for statement in df['DESCRIPTION']]
 
 
 def return_mode_player(sixth_man_list):
@@ -109,7 +109,6 @@ def get_team_and_year(nba_teams, season_list, sixth_man_df_list):
 def sixth_man_main():
   # NOT COMPLETE!!!
   # This
-  print('Good')
   sixth_man_df_list = check_sixth_man_df_exists()
   used_season_list, used_team_list = get_team_and_year(nba_teams, season_list, sixth_man_df_list)
   i = 0
@@ -118,11 +117,13 @@ def sixth_man_main():
       used_season_list = season_list
     i = i + 1
     for season in used_season_list:
+      #print('here')
       game_ids = get_game_ids(team['id'], season)
       game_logs = [get_game_log(game) for game in game_ids]
       sixth_man_list = [get_6th_man(log) for log in game_logs]
       sixth_men_mode = return_mode_player(sixth_man_list)
       sixth_man_df_list = add_to_list(sixth_men_mode, sixth_man_df_list, season, team)
+      #print('Updated Happened')
       df = pd.concat(sixth_man_df_list)
       sixth_man_df_list = [df]
       os.remove('data/sixth_man_data.csv')
