@@ -22,6 +22,12 @@ This CSV contains the season stats for ___ 6th men, but does not contain the cor
 This CSV contains an example of what the your final submission csv created by running your model on test.csv should look like. As you can see, one column is a list of player id's, and the other column is a list of corresponding win percentage predictions. Here the win percentage predictions are generated randomly. 
 
 ## How to Participate 
+### Submission of your CSV:
+You should submit a csv file with exactly ___ entries plus a header row. Your submission will show an error if you have extra columns (beyond PassengerId and Survived) or rows.
+
+The file should have exactly 2 columns:
+- PassengerId (sorted in any order)
+- Team Win percentage (contains your binary predictions: 1 for survived, 0 for deceased)
 
 
 
