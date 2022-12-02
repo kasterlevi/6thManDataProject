@@ -23,11 +23,13 @@ This CSV contains an example of what the your final submission csv created by ru
 
 ## How to Participate 
 ### Submission of your CSV:
-You should submit a csv file with exactly ___ entries plus a header row. Your submission will show an error if you have extra columns (beyond PassengerId and Survived) or rows.
+You should submit a csv file with exactly ___ entries plus a header row. Your submission will show an error if you have extra columns (beyond PlayerId and WinPercentage) or rows.
 
 The file should have exactly 2 columns:
-- PassengerId (sorted in any order)
-- Team Win percentage (contains your binary predictions: 1 for survived, 0 for deceased)
+- PlayerId (sorted in any order)
+- WinPercentage (contains your numerical predictions: between 0 and 1)
+
+### Evaluation of your submission:
 
 
 
