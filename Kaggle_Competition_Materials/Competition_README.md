@@ -15,5 +15,9 @@ This CSV contains the season stats for ___ 6th men, as well as their team's corr
 
 ### test.csv:
 
-This CSV contains the season stats for ___ 6th men, but does not contain the corresponding win percentage. You will use the CSV 
+This CSV contains the season stats for ___ 6th men, but does not contain the corresponding win percentage. You will use the model you created using train.csv to create predictions for each of the rows in the CSV. You will then create a two column csv that contains these predictions. The first column will be the player id, and the second column will be the team win percentage prediciton for that player. This csv will then be compared against the actual solutions to determine the success of your model. 
+
+### example_submission.csv:
+
+This CSV contains an example of what the 
 
