@@ -19,5 +19,9 @@ This CSV contains the season stats for ___ 6th men, but does not contain the cor
 
 ### example_submission.csv:
 
-This CSV contains an example of what the 
+This CSV contains an example of what the your final submission csv created by running your model on test.csv should look like. As you can see, one column is a list of player id's, and the other column is a list of corresponding win percentage predictions. Here the win percentage predictions are generated randomly. 
+
+## How to Participate 
+
+
 
