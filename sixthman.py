@@ -47,6 +47,7 @@ def get_6th_man(game_log_tuple):
     df = df.loc[df['EVENTMSGTYPE'] == 8,
                 ['PCTIMESTRING', 'PERIOD', 'HOMEDESCRIPTION']]
     df = df[df['HOMEDESCRIPTION'].notnull()].reset_index(drop=True)
+    print(df)
     df = df[(df[['PCTIMESTRING',
                  'PERIOD']] == df.loc[0,
                                       ['PCTIMESTRING', 'PERIOD']]).all(axis=1)]
