@@ -7,7 +7,7 @@ We have gone through the game logs of each NBA game in the past two decades, and
 
 The competition is simple: use the single season 6th man player statistics to predict their team's win percentage! We have provided you with 3 csv files datasets to get started: train.csv, test.csv, and example_submission.csv. Below we go into futher detail about what each of these CSV's contains.
 
-## CSV Description 
+## CSV Description (Availible in Availible_CSVs)
 
 ### train.csv:
 
