@@ -39,9 +39,9 @@ This CSV contains an example of what the your final submission csv created by ru
 |TOV|Average Number of Turnovers Per Game|
 |STL|Average Number of Steals Per Game|
 |BLK|Average Number of Blocks Per Game|
-|BLKA| |
+|BLKA|Average Number of Blocks Against Per Game |
 |PF|Average Number of Personal Fouls Per Game|
-|PFD| |
+|PFD|Average Number of Personal Fouls Drawn Per Game|
 |PTS|Average Number of Points Per Game|
 |PLUS_MINUS|Average Plus Minus Per Game|
 |Games|Number of Games Played|
@@ -63,4 +63,4 @@ After your CSV is submitted, your predictions will be compared to the actual pre
 
 HINT: If you are stuck, try to do some feature selection. 
 
-
+### See you Later! We hope you have a great time making predictions using our dataset. Please leave us any suggestions that you have! 
