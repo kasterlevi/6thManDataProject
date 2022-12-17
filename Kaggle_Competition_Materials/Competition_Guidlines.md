@@ -22,12 +22,16 @@ This CSV contains the season stats for ___ 6th men, but does not contain the cor
 This CSV contains an example of what the your final submission csv created by running your model on test.csv should look like. As you can see, one column is a list of player id's, and the other column is a list of corresponding win percentage predictions. Here the win percentage predictions are generated randomly. 
 
 ## How to Participate 
+### Create a Model
+Using the training dataset that we provide, you should create a model than accuretly predicts win percentage (the column named 'WL'). Once you have a model that makes these predictions, you can make these predictions on the test dataset that we provide you. Once you have these predictions from the test data, you should put this information in a CSV that you can submit to kaggle, following the format of example_submission.csv. 
 ### Submission of your CSV:
 You should submit a csv file with exactly ___ entries plus a header row. Your submission will show an error if you have extra columns (beyond PlayerId and WinPercentage) or rows.
 
 The file should have exactly 2 columns:
 - PlayerId (sorted in any order)
-- WinPercentage (contains your numerical predictions: between 0 and 1)
+- WL (contains your numerical Win percentage predictions, which are values between 0 and 1)
 
-### Evaluation of your submission:
+### Evaluation of your submission: 
+After your CSV is submitted, your predictions will be compared to the actual predictions to obtain the Mean Absolute Error (MAE) of your model. The benchmark MAE that you should attempt to get better than is .066. This is a difficult benchmark to hit; however, through testing we determined that it is possible to meet and even exceed this benchmark using more than one choice of model.  The people who meat this benchmark will be shown on Kaggle, and the top scoring participants will be ranked as well. HINT: If you are stuck, try to do some feature selection. 
+
 
