@@ -22,7 +22,7 @@ The last two cells of the notebook show how the solutions.csv will be used to ev
 
 ## Kaggle_Comp.py 
 
-This notebook contains the functions that were necessary to generate the CSVs found in the Available CSV's folder and Hidden CSV folder. In order for these functions to be run, sixth_men_season_stats.csv must be in the data folder of the base repository (as it is currently). 
+This notebook contains the functions that were necessary to generate the CSVs found in the Available CSV's folder and Hidden CSV folder. In order for these functions to be run, sixth_men_season_stats.csv must be in the data folder of the base repository (as it is currently). It will not be provided to the Kaggle Competition Participant.
 
 ### Functions:
 
@@ -36,7 +36,9 @@ generate_example_submission(solution_df): This function uses the solution_df gen
 
 save_csvs(train_df, test_df, solution_df, example_df): This function saves train.csv, test,csv, solutions.csv, and example_submission.csv in their respective locaitons. 
 
-##
+## Kagglers_Guide.md
+
+This is the guide that will be provided to the Kaggle Competition Participant, and introduces the concept of the competition to them. Included in this guide is an introducion, an explanation of the availible CSV's, a data dicitonary, a description of how the Kaggler can participant, and a short explaination of how the submission will be evaluated. 
 
 
 
