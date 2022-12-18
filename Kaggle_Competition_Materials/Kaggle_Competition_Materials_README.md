@@ -38,7 +38,7 @@ save_csvs(train_df, test_df, solution_df, example_df): This function saves train
 
 ## Kagglers_Guide.md
 
-This is the guide that will be provided to the Kaggle Competition Participant, and introduces the concept of the competition to them. Included in this guide is an introducion, an explanation of the availible CSV's, a data dicitonary, a description of how the Kaggler can participant, and a short explaination of how the submission will be evaluated. 
+This is the guide that will be provided to the Kaggle Competition Participant, and introduces the concept of the competition to them. Included in this guide is an introducion, an explanation of the availible CSV's, a data dicitonary, a description of how the Kaggler can participate, and a short explaination of how the submission will be evaluated. 
 
 
 
