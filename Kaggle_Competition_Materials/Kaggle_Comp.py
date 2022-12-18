@@ -53,13 +53,5 @@ def generate_all_csvs():
     example_df = generate_example_submission(solution_df)
     save_csvs(train_df, test_df, solution_df, example_df)
 
-def linear_prediction_benchmark(train_df, test_df, solution_df):
-    ### When Run this gives a result of 0.06624659699198103 as Mean Absolute Error
-    y = train_df['WL']
-    X = train_df.drop(['WL'], axis=1)
-    reg = LinearRegression().fit(X, y)
-    test_predictions = reg.predict(test_df)
-    return mean_absolute_error(solution_df, test_predictions)
-
     
     
