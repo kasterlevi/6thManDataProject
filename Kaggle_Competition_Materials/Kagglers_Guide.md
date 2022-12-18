@@ -51,6 +51,8 @@ This CSV contains an example of what the your final submission csv created by ru
 ## How to Participate 
 ### Create a Model
 Using the training dataset that we provide, you should create a model than accuretly predicts win percentage (the column named 'WL'). Once you have a model that makes these predictions, you can make these predictions on the test dataset that we provide you. Once you have these predictions from the test data, you should put this information in a CSV that you can submit to kaggle, following the format of example_submission.csv. 
+
+The .ipynb file called "Benchmark Solution Example" provides an example of how one might go about obtaining a prediction model; however, you will have to go above and beyond what is provided in this example to meet our benchmark. This could include trying different models, performing feature selection, or doing hyperparameter tuning. 
 ### Submission of your CSV:
 You should submit a csv file with exactly 137 entries plus a header row. Your submission will show an error if you have extra columns (beyond PlayerId and WinPercentage) or rows.
 
@@ -59,7 +61,9 @@ The file should have exactly 2 columns:
 - WL (contains your numerical Win percentage predictions, which are values between 0 and 1)
 
 ### Evaluation of your submission: 
-After your CSV is submitted, your predictions will be compared to the actual predictions to obtain the Mean Absolute Error (MAE) of your model. The benchmark MAE that you should attempt to meet is .066. This is a difficult benchmark to hit; however, through testing we determined that it is possible to meet and even exceed this benchmark using more than one choice of model.  The people who meet this benchmark will be shown on Kaggle, and the top scoring participants will be ranked as well. 
+After your CSV is submitted, your predictions will be compared to the actual predictions to obtain the Mean Absolute Error (MAE) of your model. The benchmark MAE that you should attempt to meet is .066. The 'Benchmark Solution Example.ipynb' file shows how we obtained this Benchmark MAE. 
+
+This is a difficult benchmark to hit; however, through testing we determined that it is possible to meet and even exceed this benchmark using more than one choice of model.  The people who meet this benchmark will be shown on Kaggle, and the top scoring participants will be ranked as well. 
 
 HINT: If you are stuck, try to do some feature selection. 
 
