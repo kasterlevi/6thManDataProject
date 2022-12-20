@@ -28,8 +28,6 @@ More information on the specific steps necessary for the generation of this func
 ## playground.ipynb
 This notebook is where we tested and ran the functions from sixthman.py and Kaggle_Competition_Materials/Kaggle_Comp.py. Apart from this, the playground represents a place where you can view our thought processes and see how we tested going through the Kaggle Competition as if we were a participant.  Additionally, this playground represents a place where you can examine each of the CSV's described above, and even test out trying to beat the benchmark of the Kaggle competition on your own. 
 
-## poetry.lock and pyproject.toml
-
 ## sixthman.py
 This file contains the functions necessary for the creation of data/sixth_man_data.csv.
 
