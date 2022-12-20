@@ -1,6 +1,8 @@
 # 6thManProject
 Hi! Welcome to the README for Sam, Levi, and Nate's 6th Man project! Here we will give an overview of what is included in our repository, and how we suggest you use each of these items. Thank you!
 
+This notebook is set up with poetry
+
 ## Kaggle_Competition_Materials Folder
 This Folder Contains all of the information pertinent to the Kaggle Compeition, and is what we would suggest checking out first as it is the culmination of our work. It includes a Kaggler's Guide, all of the CSV's that the Participant has access to, and an example of how someone can participate. This Folder has it's own README, so I would suggest checking that out for more in depth information on everything that this guide includes. 
 
